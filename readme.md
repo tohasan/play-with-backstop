@@ -1,4 +1,16 @@
 
+# Description
+
+This repo contains some experiments with [backstop](https://github.com/garris/BackstopJS). 
+You can go through sequence of steps from installation to integration with build system:
+ 
+1. *step 1*: installation of backstop
+2. *step 2*: test for simple user interaction like mouse hover
+3. *step 3*: refactoring and fail due to it
+4. *step 4*: fixing bug
+5. *step 5*: cleaning after refactoring
+6. *step 6*: integration with gulp
+
 # Prerequisites
 
 1. Installed node.js v.6+. Download from: https://nodejs.org/en/download/
