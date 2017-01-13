@@ -51,6 +51,14 @@
             "delay": 0,
             "onReadyScript": null,
             "onBeforeScript": null
+        },
+        {
+            "label": "index-hover-nav",
+            "url": "index.html",
+            "selectors": [
+                ".nav-masthead"
+            ],
+            "onReadyScript": "index-hover-nav.onready.js"
         }
     ],
     "paths": {
