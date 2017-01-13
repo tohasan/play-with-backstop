@@ -1,3 +1,9 @@
+/**
+ * Do not use such approach in production!
+ * Use on on the following:
+ *  1. Concatenate and minify files
+ *  2. Include each of them separately on the page
+ */
 @import "box/box.css";
 @import "common/resets.css";
 @import "cover/cover.css";
