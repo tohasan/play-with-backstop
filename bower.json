@@ -1,0 +1,26 @@
+{
+  "name": "backstop-js-test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "tohasan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "backstopjs",
+    "play"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

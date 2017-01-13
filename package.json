@@ -1,0 +1,22 @@
+{
+  "name": "backstop-js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "backstopjs": "2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "genconf": "backstop genConfig",
+    "ref": "backstop reference",
+    "test": "backstop test",
+    "report": "backstop openReport"
+  },
+  "keywords": [
+    "backstopjs",
+    "play"
+  ],
+  "author": "tohasan",
+  "license": "ISC"
+}

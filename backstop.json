@@ -1,0 +1,68 @@
+{
+    "id": "regression",
+    "viewports": [
+        {
+            "name": "iphone5",
+            "width": 320,
+            "height": 568
+        },
+        {
+            "name": "nexus5",
+            "width": 360,
+            "height": 640
+        },
+        {
+            "name": "nexus7",
+            "width": 600,
+            "height": 960
+        },
+        {
+            "name": "nexus7-landscape",
+            "width": 960,
+            "height": 600
+        },
+        {
+            "name": "iPad",
+            "width": 1024,
+            "height": 768
+        },
+        {
+            "name": "desktop",
+            "width": 1300,
+            "height": 800
+        }
+    ],
+    "scenarios": [
+        {
+            "label": "index",
+            "url": "index.html",
+            "hideSelectors": [],
+            "removeSelectors": [
+            ],
+            "selectors": [
+                ".masthead",
+                ".cover",
+                ".mastfoot",
+                ".nav-masthead",
+                ".site-wrapper"
+            ],
+            "misMatchThreshold" : 0.5,
+            "readyEvent": null,
+            "delay": 0,
+            "onReadyScript": null,
+            "onBeforeScript": null
+        }
+    ],
+    "paths": {
+        "bitmaps_reference": "backstop_data/bitmaps_reference",
+        "bitmaps_test": "backstop_data/bitmaps_test",
+        "casper_scripts": "backstop_data/casper_scripts",
+        "html_report": "backstop_data/html_report"
+    },
+    "casperFlags": [ ],
+    "engine": "phantomjs",
+    "report": [
+        "browser"
+    ],
+    "debug": false
+}
