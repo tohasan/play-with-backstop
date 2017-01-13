@@ -40,13 +40,12 @@
             "removeSelectors": [
             ],
             "selectors": [
-                ".masthead",
+                ".cover-header",
                 ".cover",
-                ".mastfoot",
-                ".nav-masthead",
-                ".site-wrapper"
+                ".footer",
+                ".wrapper"
             ],
-            "misMatchThreshold" : 0.5,
+            "misMatchThreshold": 0.5,
             "readyEvent": null,
             "delay": 0,
             "onReadyScript": null,
@@ -56,7 +55,7 @@
             "label": "index-hover-nav",
             "url": "index.html",
             "selectors": [
-                ".nav-masthead"
+                ".cover-header"
             ],
             "onReadyScript": "index-hover-nav.onready.js"
         }
