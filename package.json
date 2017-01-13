@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
     "backstopjs": "2.3.0"
   },
   "devDependencies": {},
@@ -11,7 +12,8 @@
     "genconf": "backstop genConfig",
     "ref": "backstop reference",
     "test": "backstop test",
-    "report": "backstop openReport"
+    "report": "backstop openReport",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "keywords": [
     "backstopjs",
