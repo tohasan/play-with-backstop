@@ -1,0 +1,19 @@
+.footer {
+    color: rgba(255,255,255,.5);
+}
+
+@media (min-width: 40em) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+    .footer {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+}
+
+@media (min-width: 62em) {
+    .footer {
+        width: 42rem;
+    }
+}

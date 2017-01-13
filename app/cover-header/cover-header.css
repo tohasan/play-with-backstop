@@ -1,0 +1,55 @@
+.cover-header {
+    margin-bottom: 2rem;
+}
+
+.cover-header__brand {
+    margin-bottom: 0;
+}
+
+@media (min-width: 48em) {
+    .cover-header__brand {
+        float: left;
+    }
+}
+
+.cover-header__nav .nav-link {
+    padding: .25rem 0;
+    font-weight: bold;
+    color: rgba(255,255,255,.5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.cover-header__nav .nav-link:hover,
+.cover-header__nav .nav-link:focus {
+    border-bottom-color: rgba(255,255,255,.25);
+}
+
+.cover-header__nav .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.cover-header__nav .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .cover-header__nav {
+        float: right;
+    }
+}
+
+@media (min-width: 40em) {
+    .cover-header {
+        position: fixed;
+        top: 0;
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+}
+
+@media (min-width: 62em) {
+    .cover-header {
+        width: 42rem;
+    }
+}
