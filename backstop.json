@@ -58,7 +58,7 @@
             "selectors": [
                 ".nav-masthead"
             ],
-            "onReadyScript": "onReady.js"
+            "onReadyScript": "index-hover-nav.onready.js"
         }
     ],
     "paths": {
